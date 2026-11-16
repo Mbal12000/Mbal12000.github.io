@@ -171,6 +171,25 @@ h3 { font-weight: 700; letter-spacing: -.01em; }
 .project-empty p { max-width: 36em; color: #45476a; }
 .project-note { font-size: 15px; color: var(--muted) !important; }
 
+
+/* ---------- Project showcase ---------- */
+.project-card { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 34px; padding: 30px; border: 1px solid var(--line); border-radius: 16px; background: var(--white); box-shadow: 0 14px 40px rgba(22, 23, 43, .06); }
+.project-copy h3 { margin-bottom: 10px; font-size: clamp(25px, 3vw, 34px); letter-spacing: -.03em; }
+.project-eyebrow { margin-bottom: 10px; color: var(--indigo); font: 500 12px/1.5 var(--mono); letter-spacing: .04em; text-transform: uppercase; }
+.project-summary { color: #45476a; }
+.project-copy h4 { margin: 22px 0 9px; font-size: 15px; }
+.project-features { padding-left: 20px; color: #45476a; }
+.project-features li { margin: 6px 0; }
+.project-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.project-tags code { padding: 6px 10px; border-radius: 6px; background: #eeedf8; color: #39358e; font: 12px var(--mono); }
+.project-role { margin: 20px 0 8px; }
+.project-copy .project-note { margin: 0; font-size: 14px; }
+.project-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-content: start; }
+.project-shot { min-width: 0; margin: 0; }
+.project-shot-wide { grid-column: 1 / -1; }
+.project-shot img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 10px; background: #f4f4f4; }
+.project-shot figcaption { padding-top: 7px; color: var(--muted); font-size: 13px; }
+
 /* Contact */
 .contact { padding: 104px 0; background: var(--ink); color: var(--on-ink); }
 .contact-inner > p { max-width: 36em; }
@@ -214,6 +233,8 @@ h3 { font-weight: 700; letter-spacing: -.01em; }
   .skill-row { grid-template-columns: 1fr; gap: 10px; }
   .timeline-item { grid-template-columns: 1fr; gap: 6px; padding-left: 22px; }
   .project-empty { grid-template-columns: 1fr; padding: 20px; gap: 24px; }
+  .project-card { grid-template-columns: 1fr; padding: 20px; gap: 26px; }
+  .project-gallery { gap: 10px; }
   .anchor { display: none; }
   .footer-inner { flex-direction: column; gap: 6px; }
 }
