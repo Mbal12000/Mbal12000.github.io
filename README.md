@@ -6,6 +6,7 @@ A responsive, single-page personal developer portfolio built with plain HTML, CS
 - `index.html` — page content and structure
 - `styles.css` — responsive layout and visual styling
 - `script.js` — mobile navigation and current-year footer
+- `expense-tracker-*.png` — screenshots used in the Smart Expense Tracker project showcase
 
 ## View locally
 1. Download and extract the ZIP file.
@@ -16,14 +17,14 @@ No build tools or package installation are required. An internet connection is o
 ## Personalise before publishing
 - Check that your email address is correct.
 - Add a professional headshot only if you want one.
-- Replace the "Projects & practice" placeholder after you have actually completed and tested a project.
+- The Projects section showcases the Smart Expense Tracker, based on the supplied project README and screenshots. The application itself is not hosted by this portfolio; add a live-demo or source-code link only when you have a public deployment or repository ready.
 - Add a GitHub profile link once you have created your GitHub account and uploaded work.
 - Keep the experience dates and descriptions accurate and current.
 
 ## Publish with GitHub Pages
 1. Create or sign in to a GitHub account.
 2. Create a public repository named `yourusername.github.io` (replace `yourusername` with your GitHub username).
-3. Upload `index.html`, `styles.css` and `script.js` to the repository root.
+3. Upload all files in this folder to the repository root, including the three `expense-tracker-*.png` screenshots. Keep the screenshots alongside `index.html` so the project gallery images load correctly.
 4. In the repository, open **Settings → Pages** and select deployment from the `main` branch and `/ (root)` folder if prompted.
 5. Wait for GitHub Pages to publish the site, then open the URL shown in Pages settings.
 
