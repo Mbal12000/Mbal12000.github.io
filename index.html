@@ -160,18 +160,49 @@
     <!-- PROJECTS -->
     <section class="section section-tint" id="projects">
       <div class="container">
-        <h2>Projects<a class="anchor" href="#projects" aria-label="Link to Projects">#</a></h2>
-        <div class="project-empty">
-          <pre class="project-code" aria-hidden="true"><span class="tk-c">// projects.js</span>
-<span class="tk-k">const</span> projects = [];
-<span class="tk-c">// case studies on the way</span></pre>
-          <div>
-            <h3>Project case studies are on the way</h3>
-            <p>I'm preparing projects in responsive web design, JavaScript and application development. Each one will show the problem, the technologies, the main features and a link to the source code.</p>
-            <p class="project-note">Projects only appear here once they're built, tested and published.</p>
-            <a class="text-link" href="mailto:mbalimalwane14@gmail.com?subject=Your%20internship%20work">Ask me about my internship work</a>
-          </div>
+        <div class="section-head">
+          <h2>Projects<a class="anchor" href="#projects" aria-label="Link to Projects">#</a></h2>
+          <p class="section-intro">Applications I've designed and developed.</p>
         </div>
+
+        <article class="project-card">
+          <div class="project-copy">
+            <p class="project-eyebrow">Python application · Personal project</p>
+            <h3>Smart Expense Tracker</h3>
+            <p class="project-summary">A personal finance application built with Python and Flet to help students and young professionals track spending, set monthly budgets and monitor savings.</p>
+
+            <h4>What it does</h4>
+            <ul class="project-features">
+              <li>Tracks income and expenses, with search and filtering.</li>
+              <li>Shows monthly spending summaries, category breakdowns and spending insights.</li>
+              <li>Sets overall and category-specific monthly budgets.</li>
+              <li>Creates savings goals and tracks progress towards targets.</li>
+              <li>Supports currency settings, dark mode and CSV export.</li>
+            </ul>
+
+            <h4>Technologies</h4>
+            <div class="project-tags" aria-label="Technologies used">
+              <code>Python</code><code>Flet</code><code>SQLite</code><code>pytest</code><code>CSV</code>
+            </div>
+            <p class="project-role"><strong>Role:</strong> Independent developer — designed and built the application.</p>
+            <p class="project-note">The application stores its data locally using SQLite. It can be run as a desktop app or in a browser; it is not currently hosted as a public live demo.</p>
+          </div>
+
+          <div class="project-gallery" aria-label="Smart Expense Tracker screenshots">
+            <figure class="project-shot project-shot-wide">
+              <img src="expense-tracker-dashboard.png" alt="Smart Expense Tracker dashboard showing income, spending, budget progress, insights and recent transactions" loading="lazy">
+              <figcaption>Dashboard and spending insights</figcaption>
+            </figure>
+            <figure class="project-shot">
+              <img src="expense-tracker-budgets.png" alt="Smart Expense Tracker monthly budgets screen with overall and category budget progress" loading="lazy">
+              <figcaption>Monthly budgets</figcaption>
+            </figure>
+            <figure class="project-shot">
+              <img src="expense-tracker-savings.png" alt="Smart Expense Tracker savings screen showing savings goals and progress" loading="lazy">
+              <figcaption>Savings goals</figcaption>
+            </figure>
+          </div>
+        </article>
       </div>
     </section>
 
